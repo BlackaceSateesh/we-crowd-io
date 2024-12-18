@@ -1,0 +1,22 @@
+.DashboardMain{
+    width: 100%;
+}
+.DashboardMain .DashboardMain-inner{
+    width: 100%;
+    display: flex;
+}
+.DashboardMain .DashboardMain-inner .right-container{
+    width: 100%;
+}
+.DashboardMain .main-wrapper{
+    width: 100%;
+    padding: 2.5rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .DashboardMain .main-wrapper{
+        padding: 2rem 1.6rem;
+    }
+    
+}
